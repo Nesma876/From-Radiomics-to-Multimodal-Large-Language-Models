@@ -1,0 +1,107 @@
+{
+  "sources": [
+    {
+      "source": "/kaggle/input/datasets/zineb1993/ibmed-v3-results/predictions/mllm_medgemma.csv",
+      "dataset": "slake",
+      "rows_in_file": 1420,
+      "rows_accepted": 1420,
+      "content_compatible": true,
+      "swap_pairs_identical": true
+    },
+    {
+      "source": "/kaggle/input/datasets/zineb1993/ibmed-v3-results/predictions/mllm_medgemma.csv",
+      "dataset": "vqarad",
+      "rows_in_file": 1568,
+      "rows_accepted": 1568,
+      "content_compatible": true,
+      "swap_pairs_identical": true
+    }
+  ],
+  "checks": {
+    "rows_not_in_manifest_test": 0,
+    "label_mismatches_dropped": 0,
+    "rows_without_raw_output_dropped": 0,
+    "stored_answer_differs_from_reparse": 0,
+    "duplicate_rows_resolved": 0
+  },
+  "missing_by_dataset_condition": {},
+  "missing_total": 0,
+  "command_to_generate_missing": "python src/run_medgemma.py   (then re-run this script)",
+  "comparison_with_announced": {
+    "slake": {
+      "accuracy_correct": {
+        "announced": 86.2,
+        "recomputed": 86.2,
+        "difference": -0.0,
+        "status": "reproduced"
+      },
+      "change_rate_no_visual": {
+        "announced": 59.2,
+        "recomputed": 59.2,
+        "difference": -0.05,
+        "status": "reproduced"
+      },
+      "visual_utility_pp": {
+        "announced": 44.5,
+        "recomputed": 44.5,
+        "difference": 0.01,
+        "status": "reproduced"
+      },
+      "invalid_no_visual": {
+        "announced": 5.1,
+        "recomputed": 5.1,
+        "difference": -0.03,
+        "status": "reproduced"
+      },
+      "ci": {
+        "announced": [
+          37.8,
+          51.3
+        ],
+        "recomputed_image_grouped": [
+          37.8,
+          51.3
+        ],
+        "note": "the announced CI used a question-level bootstrap; the recomputed CI resamples images (10,000 replicates), so the two are not expected to coincide"
+      }
+    },
+    "vqarad": {
+      "accuracy_correct": {
+        "announced": 71.4,
+        "recomputed": 71.4,
+        "difference": 0.03,
+        "status": "reproduced"
+      },
+      "change_rate_no_visual": {
+        "announced": 46.4,
+        "recomputed": 46.4,
+        "difference": 0.03,
+        "status": "reproduced"
+      },
+      "visual_utility_pp": {
+        "announced": 17.9,
+        "recomputed": 17.9,
+        "difference": -0.04,
+        "status": "reproduced"
+      },
+      "invalid_no_visual": {
+        "announced": 12.0,
+        "recomputed": 12.0,
+        "difference": -0.01,
+        "status": "reproduced"
+      },
+      "ci": {
+        "announced": [
+          10.5,
+          25.1
+        ],
+        "recomputed_image_grouped": [
+          10.5,
+          25.3
+        ],
+        "note": "the announced CI used a question-level bootstrap; the recomputed CI resamples images (10,000 replicates), so the two are not expected to coincide"
+      }
+    }
+  },
+  "status": "COMPLETE"
+}

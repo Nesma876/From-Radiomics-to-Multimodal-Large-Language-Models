@@ -1,0 +1,93 @@
+analysis,dataset,model,stratum,yes_rate_pct,balanced_accuracy_pct,invalid_rate_pct,analysis_status,utility_pp,ci_low_pp,ci_high_pp,n_questions,change_rate_pct
+yes/no prediction bias,slake,q_only,correct,73.35211267605632,59.48571428571429,0.0,prespecified,,,,,
+yes/no prediction bias,slake,q_only,no_visual,73.35211267605632,59.48571428571429,0.0,prespecified,,,,,
+yes/no prediction bias,slake,q_only,gray,73.35211267605632,59.48571428571429,0.0,prespecified,,,,,
+yes/no prediction bias,slake,q_only,swapped,73.35211267605632,59.48571428571429,0.0,prespecified,,,,,
+valid paired outputs only,slake,early,,,,,added after inspection of MedGemma results,-2.028169014084507,-5.705526078225464,1.4693934724751296,355.0,
+category: presumed image dependence,slake,early,knowledge-based,,,,prespecified,15.384615384615385,-4.390243902439025,35.67567567567567,39.0,59.487179487179496
+category: presumed image dependence,slake,early,vision-based,,,,prespecified,-4.177215189873418,-8.17283043009787,-0.2539281958840318,316.0,16.962025316455694
+category: question type,slake,early,Abnormality,,,,prespecified,-0.6122448979591837,-3.695853462157808,2.0618556701030926,98.0,4.285714285714286
+category: question type,slake,early,KG,,,,prespecified,15.384615384615385,-4.390243902439025,35.67567567567567,39.0,59.487179487179496
+category: question type,slake,early,Modality,,,,prespecified,-6.08695652173913,-21.818181818181817,8.695652173913043,23.0,14.782608695652174
+category: question type,slake,early,Organ,,,,prespecified,0.779220779220779,-5.095669644765528,6.543320105820103,154.0,18.7012987012987
+category: question type,slake,early,Plane,,,,prespecified,-35.2,-56.00000000000001,-15.2,25.0,41.6
+category: question type,slake,early,Position,,,,prespecified,-23.999999999999996,-50.66666666666667,4.000000000000001,15.0,45.33333333333333
+yes/no prediction bias,slake,early,correct,70.64788732394366,57.3063492063492,0.0,prespecified,,,,,
+yes/no prediction bias,slake,early,no_visual,82.8169014084507,59.506349206349206,0.0,prespecified,,,,,
+yes/no prediction bias,slake,early,gray,85.9718309859155,57.973015873015875,0.0,prespecified,,,,,
+yes/no prediction bias,slake,early,swapped,69.29577464788733,57.17460317460318,0.0,prespecified,,,,,
+valid paired outputs only,slake,coattention,,,,,added after inspection of MedGemma results,23.492957746478872,19.31576078045581,27.62476904039462,355.0,
+category: presumed image dependence,slake,coattention,knowledge-based,,,,prespecified,29.230769230769237,8.5,49.001190476190466,39.0,51.7948717948718
+category: presumed image dependence,slake,coattention,vision-based,,,,prespecified,22.78481012658228,18.650287021876785,26.86944338905775,316.0,29.367088607594937
+category: question type,slake,coattention,Abnormality,,,,prespecified,8.775510204081632,2.8282279314888013,14.831641899238852,98.0,15.714285714285717
+category: question type,slake,coattention,KG,,,,prespecified,29.230769230769237,8.5,49.001190476190466,39.0,51.7948717948718
+category: question type,slake,coattention,Modality,,,,prespecified,39.130434782608695,22.5,56.36363636363636,23.0,46.08695652173914
+category: question type,slake,coattention,Organ,,,,prespecified,27.532467532467532,21.199801324503312,33.806451612903224,154.0,35.064935064935064
+category: question type,slake,coattention,Plane,,,,prespecified,26.400000000000002,12.8,42.4,25.0,28.000000000000004
+category: question type,slake,coattention,Position,,,,prespecified,33.33333333333333,14.666666666666666,53.333333333333336,15.0,36.0
+yes/no prediction bias,slake,coattention,correct,46.985915492957744,87.73968253968253,0.0,prespecified,,,,,
+yes/no prediction bias,slake,coattention,no_visual,31.380281690140844,64.02222222222223,0.0,prespecified,,,,,
+yes/no prediction bias,slake,coattention,gray,42.64788732394366,58.77142857142857,0.0,prespecified,,,,,
+yes/no prediction bias,slake,coattention,swapped,45.52112676056338,77.8015873015873,0.0,prespecified,,,,,
+valid paired outputs only,slake,medgemma,,,,,added after inspection of MedGemma results,42.13649851632047,35.39810579695734,48.980173265887544,337.0,
+category: presumed image dependence,slake,medgemma,knowledge-based,,,,prespecified,35.8974358974359,20.0,52.38095238095239,39.0,41.02564102564102
+category: presumed image dependence,slake,medgemma,vision-based,,,,prespecified,45.56962025316456,38.387096774193544,52.84844755572603,316.0,61.39240506329114
+category: question type,slake,medgemma,Abnormality,,,,prespecified,61.224489795918366,48.31460674157304,72.89768302180684,98.0,73.46938775510205
+category: question type,slake,medgemma,KG,,,,prespecified,35.8974358974359,20.0,52.38095238095239,39.0,41.02564102564102
+category: question type,slake,medgemma,Modality,,,,prespecified,43.47826086956522,12.5,72.72727272727273,23.0,69.56521739130434
+category: question type,slake,medgemma,Organ,,,,prespecified,36.36363636363637,27.67295597484277,45.34268991877686,154.0,54.54545454545454
+category: question type,slake,medgemma,Plane,,,,prespecified,48.0,24.0,72.0,25.0,64.0
+category: question type,slake,medgemma,Position,,,,prespecified,40.0,13.333333333333334,66.66666666666666,15.0,40.0
+yes/no prediction bias,slake,medgemma,correct,52.95774647887323,86.24603174603173,0.0,prespecified,,,,,
+yes/no prediction bias,slake,medgemma,no_visual,36.33802816901409,41.51587301587302,5.070422535211268,prespecified,,,,,
+yes/no prediction bias,slake,medgemma,gray,8.732394366197182,44.76984126984127,0.0,prespecified,,,,,
+yes/no prediction bias,slake,medgemma,swapped,47.04225352112676,76.30158730158729,0.0,prespecified,,,,,
+yes/no prediction bias,vqarad,q_only,correct,69.08163265306123,63.08726241730547,0.0,prespecified,,,,,
+yes/no prediction bias,vqarad,q_only,no_visual,69.08163265306123,63.08726241730547,0.0,prespecified,,,,,
+yes/no prediction bias,vqarad,q_only,gray,69.08163265306123,63.08726241730547,0.0,prespecified,,,,,
+yes/no prediction bias,vqarad,q_only,swapped,69.08163265306123,63.08726241730547,0.0,prespecified,,,,,
+exclude exact duplicate,vqarad,early,,,,,added after inspection of MedGemma results,3.324808184143223,-4.4389172335600895,11.101172273190617,391.0,
+valid paired outputs only,vqarad,early,,,,,added after inspection of MedGemma results,3.1632653061224487,-4.60075365630416,10.919539302428378,392.0,
+category: question type,vqarad,early,ABN,,,,prespecified,10.500000000000002,-8.637845849802359,31.797297297297266,40.0,32.49999999999999
+category: question type,vqarad,early,ATTRIB,,,,prespecified,-10.0,-37.5,0.0,10.0,30.0
+category: question type,vqarad,early,COLOR,,,,prespecified,0.0,0.0,0.0,13.0,0.0
+category: question type,vqarad,early,MODALITY,,,,prespecified,3.7037037037037033,-12.903225806451612,20.833333333333336,27.0,18.51851851851852
+category: question type,vqarad,early,ORGAN,,,,prespecified,-50.0,-100.0,-12.5,6.0,50.0
+category: question type,vqarad,early,OTHER,,,,prespecified,-7.272727272727273,-38.095238095238095,24.0,22.0,29.090909090909093
+category: question type,vqarad,early,PLANE,,,,prespecified,6.25,-5.000000000000001,22.857142857142858,16.0,11.25
+category: question type,vqarad,early,PRES,,,,prespecified,5.199999999999999,-4.727647610121834,15.458937198067632,200.0,31.8
+category: question type,vqarad,early,SIZE,,,,prespecified,10.0,-17.083333333333332,36.44444444444444,46.0,51.739130434782595
+yes/no prediction bias,vqarad,early,correct,60.45918367346938,60.07613147117505,0.0,prespecified,,,,,
+yes/no prediction bias,vqarad,early,no_visual,87.39795918367348,59.380972382652516,0.0,prespecified,,,,,
+yes/no prediction bias,vqarad,early,gray,65.81632653061224,62.78483671112045,0.0,prespecified,,,,,
+yes/no prediction bias,vqarad,early,swapped,59.89795918367348,60.17851517378977,0.0,prespecified,,,,,
+exclude exact duplicate,vqarad,coattention,,,,,added after inspection of MedGemma results,2.9667519181585678,-3.989637305699481,9.664125864370977,391.0,
+valid paired outputs only,vqarad,coattention,,,,,added after inspection of MedGemma results,2.9081632653061225,-4.000244498777503,9.578947368421053,392.0,
+category: question type,vqarad,coattention,ABN,,,,prespecified,17.5,3.2558139534883725,34.85714285714286,40.0,44.5
+category: question type,vqarad,coattention,ATTRIB,,,,prespecified,2.220446049250313e-15,-24.448717948717913,20.000000000000004,10.0,44.00000000000001
+category: question type,vqarad,coattention,COLOR,,,,prespecified,-7.692307692307692,-26.0,10.0,13.0,23.07692307692308
+category: question type,vqarad,coattention,MODALITY,,,,prespecified,2.9629629629629632,-12.310344827586185,17.039682539682506,27.0,23.703703703703702
+category: question type,vqarad,coattention,ORGAN,,,,prespecified,-60.00000000000001,-76.0,-47.50000000000001,6.0,60.00000000000001
+category: question type,vqarad,coattention,OTHER,,,,prespecified,-3.6363636363636354,-30.0,20.952380952380953,22.0,36.36363636363637
+category: question type,vqarad,coattention,PLANE,,,,prespecified,1.2499999999999991,-18.571428571428573,22.5,16.0,23.75
+category: question type,vqarad,coattention,PRES,,,,prespecified,3.6000000000000005,-5.494583615436695,12.916826923076922,200.0,38.6
+category: question type,vqarad,coattention,SIZE,,,,prespecified,7.391304347826087,-9.6,23.600909090909077,46.0,40.43478260869565
+yes/no prediction bias,vqarad,coattention,correct,52.09183673469388,58.06626063215374,0.0,prespecified,,,,,
+yes/no prediction bias,vqarad,coattention,no_visual,67.55102040816327,56.565158038433275,0.0,prespecified,,,,,
+yes/no prediction bias,vqarad,coattention,gray,57.65306122448981,53.79607266617662,0.0,prespecified,,,,,
+yes/no prediction bias,vqarad,coattention,swapped,51.4795918367347,58.21537330673108,0.0,prespecified,,,,,
+exclude exact duplicate,vqarad,medgemma,,,,,added after inspection of MedGemma results,17.902813299232736,10.498125234345713,25.268817204301076,391.0,
+valid paired outputs only,vqarad,medgemma,,,,,added after inspection of MedGemma results,8.985507246376812,1.3727081741787706,16.71388101983003,345.0,
+category: question type,vqarad,medgemma,ABN,,,,prespecified,20.0,-9.436208445642388,50.0,40.0,47.5
+category: question type,vqarad,medgemma,ATTRIB,,,,prespecified,10.0,-25.0,42.857142857142854,10.0,30.0
+category: question type,vqarad,medgemma,COLOR,,,,prespecified,7.6923076923076925,0.0,23.076923076923077,13.0,23.076923076923077
+category: question type,vqarad,medgemma,MODALITY,,,,prespecified,33.33333333333333,8.695652173913043,53.125,27.0,40.74074074074074
+category: question type,vqarad,medgemma,ORGAN,,,,prespecified,-16.666666666666664,-60.0,0.0,6.0,16.666666666666664
+category: question type,vqarad,medgemma,OTHER,,,,prespecified,-9.090909090909092,-33.33333333333333,12.5,22.0,27.27272727272727
+category: question type,vqarad,medgemma,PLANE,,,,prespecified,12.5,-18.75,50.0,16.0,62.5
+category: question type,vqarad,medgemma,PRES,,,,prespecified,23.0,14.417616659066738,31.382978723404253,200.0,50.0
+category: question type,vqarad,medgemma,SIZE,,,,prespecified,10.869565217391305,-14.893617021276595,36.95652173913043,46.0,56.52173913043478
+yes/no prediction bias,vqarad,medgemma,correct,51.53061224489795,71.75259897091253,0.0,prespecified,,,,,
+yes/no prediction bias,vqarad,medgemma,no_visual,40.05102040816326,53.55455213693163,11.989795918367346,prespecified,,,,,
+yes/no prediction bias,vqarad,medgemma,gray,15.561224489795919,53.756694319017114,0.0,prespecified,,,,,
+yes/no prediction bias,vqarad,medgemma,swapped,45.1530612244898,63.18649585214744,0.0,prespecified,,,,,

@@ -1,0 +1,15 @@
+# Main environment (steps 00, 01, 02, 03 --backend medgemma, 04)
+# torch is preinstalled on Kaggle; locally install the CUDA build matching your driver first.
+torch>=2.1
+open_clip_torch>=2.23
+timm>=0.9
+transformers>=4.50
+accelerate>=0.30
+bitsandbytes>=0.43
+datasets>=2.18
+huggingface_hub>=0.23
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.7
+pillow>=10.0
+jinja2>=3.1

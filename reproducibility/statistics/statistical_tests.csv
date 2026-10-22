@@ -1,0 +1,25 @@
+dataset,model,contrast,family,method,statistic_pp,p,analysis_status,only_correct_right,only_no_visual_right,p_holm
+slake,early,correct - no_visual,primary (Holm),"image-block sign-flip permutation, two-sided, 10,000 permutations",-2.028169014084507,0.2743725627437256,added after inspection of MedGemma results,,,0.8231176882311768
+slake,early,correct - gray,secondary (unadjusted),image-block sign-flip permutation,-0.45070422535211263,0.821917808219178,prespecified,,,
+slake,early,correct - swapped,secondary (unadjusted),image-block sign-flip permutation,0.11267605633802802,0.9724027597240276,prespecified,,,
+slake,early,correct - no_visual,diagnostic,"exact McNemar, question level (seed-majority vote)",,0.566573442398685,prespecified (diagnostic only),35.0,41.0,
+slake,coattention,correct - no_visual,primary (Holm),"image-block sign-flip permutation, two-sided, 10,000 permutations",23.492957746478872,9.999000099990002e-05,added after inspection of MedGemma results,,,0.0005999400059994001
+slake,coattention,correct - gray,secondary (unadjusted),image-block sign-flip permutation,28.901408450704224,9.999000099990002e-05,prespecified,,,
+slake,coattention,correct - swapped,secondary (unadjusted),image-block sign-flip permutation,9.915492957746478,9.999000099990002e-05,prespecified,,,
+slake,coattention,correct - no_visual,diagnostic,"exact McNemar, question level (seed-majority vote)",,1.1051853702916687e-14,prespecified (diagnostic only),92.0,15.0,
+slake,medgemma,correct - no_visual,primary (Holm),"image-block sign-flip permutation, two-sided, 10,000 permutations",44.50704225352113,9.999000099990002e-05,added after inspection of MedGemma results,,,0.0005999400059994001
+slake,medgemma,correct - gray,secondary (unadjusted),image-block sign-flip permutation,40.845070422535215,9.999000099990002e-05,prespecified,,,
+slake,medgemma,correct - swapped,secondary (unadjusted),image-block sign-flip permutation,9.859154929577464,0.0004999500049995,prespecified,,,
+slake,medgemma,correct - no_visual,diagnostic,"exact McNemar, question level",,7.213300979328562e-31,prespecified (diagnostic only),183.0,25.0,
+vqarad,early,correct - no_visual,primary (Holm),"image-block sign-flip permutation, two-sided, 10,000 permutations",3.1632653061224487,0.4420557944205579,added after inspection of MedGemma results,,,0.8351164883511649
+vqarad,early,correct - gray,secondary (unadjusted),image-block sign-flip permutation,-2.1938775510204085,0.5302469753024698,prespecified,,,
+vqarad,early,correct - swapped,secondary (unadjusted),image-block sign-flip permutation,-0.1530612244897958,0.869013098690131,prespecified,,,
+vqarad,early,correct - no_visual,diagnostic,"exact McNemar, question level (seed-majority vote)",,0.35527968165224744,prespecified (diagnostic only),64.0,53.0,
+vqarad,coattention,correct - no_visual,primary (Holm),"image-block sign-flip permutation, two-sided, 10,000 permutations",2.9081632653061225,0.41755824417558246,added after inspection of MedGemma results,,,0.8351164883511649
+vqarad,coattention,correct - gray,secondary (unadjusted),image-block sign-flip permutation,4.744897959183672,0.1571842815718428,prespecified,,,
+vqarad,coattention,correct - swapped,secondary (unadjusted),image-block sign-flip permutation,-0.20408163265306123,0.8691130886911309,prespecified,,,
+vqarad,coattention,correct - no_visual,diagnostic,"exact McNemar, question level (seed-majority vote)",,0.6927623491186462,prespecified (diagnostic only),77.0,83.0,
+vqarad,medgemma,correct - no_visual,primary (Holm),"image-block sign-flip permutation, two-sided, 10,000 permutations",17.857142857142858,9.999000099990002e-05,added after inspection of MedGemma results,,,0.0005999400059994001
+vqarad,medgemma,correct - gray,secondary (unadjusted),image-block sign-flip permutation,14.540816326530612,0.0006999300069993001,prespecified,,,
+vqarad,medgemma,correct - swapped,secondary (unadjusted),image-block sign-flip permutation,7.908163265306123,0.0231976802319768,prespecified,,,
+vqarad,medgemma,correct - no_visual,diagnostic,"exact McNemar, question level",,1.1516772913492057e-07,prespecified (diagnostic only),122.0,52.0,

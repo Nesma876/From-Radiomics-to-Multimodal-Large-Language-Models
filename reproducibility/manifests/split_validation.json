@@ -1,0 +1,73 @@
+{
+  "datasets": {
+    "slake": {
+      "split_id": "8e57938223ba7afa",
+      "test_questions": 355,
+      "test_images": 96,
+      "train_val_test_image_overlap": 0,
+      "image_files_verified": 637,
+      "expected_vs_observed": {
+        "test_questions": {
+          "expected": 355,
+          "observed": 355,
+          "match": true
+        },
+        "test_images": {
+          "expected": 96,
+          "observed": 96,
+          "match": true
+        }
+      }
+    },
+    "vqarad": {
+      "split_id": "09ab5d3f2b1dc16b",
+      "test_questions": 392,
+      "test_images": 99,
+      "train_val_test_image_overlap": 0,
+      "image_files_verified": 294,
+      "expected_vs_observed": {
+        "test_questions": {
+          "expected": 392,
+          "observed": 392,
+          "match": true
+        },
+        "test_images": {
+          "expected": 99,
+          "observed": 99,
+          "match": true
+        },
+        "exact_duplicates_test": {
+          "expected": 1,
+          "observed": 1,
+          "match": true
+        }
+      }
+    }
+  },
+  "legacy_compatibility": {
+    "/kaggle/input/datasets/zineb1993/ibmed-v3-results": {
+      "slake": {
+        "manifest_test": 355,
+        "legacy_test": 355,
+        "common_ids": 355,
+        "only_in_manifest": 0,
+        "only_in_legacy": 0,
+        "label_mismatch": 0,
+        "question_mismatch": 0,
+        "image_mismatch": 0,
+        "compatible": true
+      },
+      "vqarad": {
+        "manifest_test": 392,
+        "legacy_test": 392,
+        "common_ids": 392,
+        "only_in_manifest": 0,
+        "only_in_legacy": 0,
+        "label_mismatch": 0,
+        "question_mismatch": 0,
+        "image_mismatch": 0,
+        "compatible": true
+      }
+    }
+  }
+}

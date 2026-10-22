@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#202020}.tick{font-size:13px}.label{font-size:16px}.point{font-size:12px}</style>
+<line x1="95" y1="475.0" x2="870" y2="475.0" stroke="#e3e3e3"/>
+<text class="tick" x="85" y="480.0" text-anchor="end">-10</text>
+<line x1="95" y1="407.3" x2="870" y2="407.3" stroke="#e3e3e3"/>
+<text class="tick" x="85" y="412.3" text-anchor="end">0</text>
+<line x1="95" y1="339.6" x2="870" y2="339.6" stroke="#e3e3e3"/>
+<text class="tick" x="85" y="344.6" text-anchor="end">10</text>
+<line x1="95" y1="271.9" x2="870" y2="271.9" stroke="#e3e3e3"/>
+<text class="tick" x="85" y="276.9" text-anchor="end">20</text>
+<line x1="95" y1="204.2" x2="870" y2="204.2" stroke="#e3e3e3"/>
+<text class="tick" x="85" y="209.2" text-anchor="end">30</text>
+<line x1="95" y1="136.5" x2="870" y2="136.5" stroke="#e3e3e3"/>
+<text class="tick" x="85" y="141.5" text-anchor="end">40</text>
+<line x1="95" y1="68.8" x2="870" y2="68.8" stroke="#e3e3e3"/>
+<text class="tick" x="85" y="73.8" text-anchor="end">50</text>
+<line x1="172.5" y1="35" x2="172.5" y2="475" stroke="#eeeeee"/>
+<text class="tick" x="172.5" y="499" text-anchor="middle">20</text>
+<line x1="327.5" y1="35" x2="327.5" y2="475" stroke="#eeeeee"/>
+<text class="tick" x="327.5" y="499" text-anchor="middle">30</text>
+<line x1="482.5" y1="35" x2="482.5" y2="475" stroke="#eeeeee"/>
+<text class="tick" x="482.5" y="499" text-anchor="middle">40</text>
+<line x1="637.5" y1="35" x2="637.5" y2="475" stroke="#eeeeee"/>
+<text class="tick" x="637.5" y="499" text-anchor="middle">50</text>
+<line x1="792.5" y1="35" x2="792.5" y2="475" stroke="#eeeeee"/>
+<text class="tick" x="792.5" y="499" text-anchor="middle">60</text>
+<line x1="95" y1="407.3" x2="870" y2="407.3" stroke="#555" stroke-dasharray="6 5"/>
+<line x1="95" y1="35" x2="95" y2="475" stroke="#222"/>
+<line x1="95" y1="475" x2="870" y2="475" stroke="#222"/>
+<line x1="197.8" y1="445.9" x2="197.8" y2="397.4" stroke="#0072B2" stroke-width="2"/>
+<line x1="192.8" y1="445.9" x2="202.8" y2="445.9" stroke="#0072B2" stroke-width="2"/>
+<line x1="192.8" y1="397.4" x2="202.8" y2="397.4" stroke="#0072B2" stroke-width="2"/>
+<circle cx="197.8" cy="421.0" r="6" fill="#0072B2"/>
+<text class="point" x="205.8" y="414.0">Early fusion (SLAKE)</text>
+<line x1="355.9" y1="276.6" x2="355.9" y2="220.3" stroke="#0072B2" stroke-width="2"/>
+<line x1="350.9" y1="276.6" x2="360.9" y2="276.6" stroke="#0072B2" stroke-width="2"/>
+<line x1="350.9" y1="220.3" x2="360.9" y2="220.3" stroke="#0072B2" stroke-width="2"/>
+<circle cx="355.9" cy="248.3" r="6" fill="#0072B2"/>
+<text class="point" x="363.9" y="241.3">Co-attention (SLAKE)</text>
+<line x1="779.4" y1="151.1" x2="779.4" y2="60.2" stroke="#0072B2" stroke-width="2"/>
+<line x1="774.4" y1="151.1" x2="784.4" y2="151.1" stroke="#0072B2" stroke-width="2"/>
+<line x1="774.4" y1="60.2" x2="784.4" y2="60.2" stroke="#0072B2" stroke-width="2"/>
+<circle cx="779.4" cy="106.0" r="6" fill="#0072B2"/>
+<text class="point" x="787.4" y="99.0">MedGemma-4B (SLAKE)</text>
+<line x1="348.1" y1="438.5" x2="348.1" y2="333.4" stroke="#D55E00" stroke-width="2"/>
+<line x1="343.1" y1="438.5" x2="353.1" y2="438.5" stroke="#D55E00" stroke-width="2"/>
+<line x1="343.1" y1="333.4" x2="353.1" y2="333.4" stroke="#D55E00" stroke-width="2"/>
+<circle cx="348.1" cy="385.9" r="6" fill="#D55E00"/>
+<text class="point" x="356.1" y="378.9">Early fusion (VQARAD)</text>
+<line x1="442.2" y1="434.4" x2="442.2" y2="342.5" stroke="#D55E00" stroke-width="2"/>
+<line x1="437.2" y1="434.4" x2="447.2" y2="434.4" stroke="#D55E00" stroke-width="2"/>
+<line x1="437.2" y1="342.5" x2="447.2" y2="342.5" stroke="#D55E00" stroke-width="2"/>
+<circle cx="442.2" cy="387.6" r="6" fill="#D55E00"/>
+<text class="point" x="450.2" y="380.6">Co-attention (VQARAD)</text>
+<line x1="582.1" y1="336.4" x2="582.1" y2="236.4" stroke="#D55E00" stroke-width="2"/>
+<line x1="577.1" y1="336.4" x2="587.1" y2="336.4" stroke="#D55E00" stroke-width="2"/>
+<line x1="577.1" y1="236.4" x2="587.1" y2="236.4" stroke="#D55E00" stroke-width="2"/>
+<circle cx="582.1" cy="286.4" r="6" fill="#D55E00"/>
+<text class="point" x="590.1" y="279.4">MedGemma-4B (VQARAD)</text>
+<text class="label" x="482.5" y="538" text-anchor="middle">Prediction-change rate after visual removal (%)</text>
+<text class="label" transform="translate(24 255.0) rotate(-90)" text-anchor="middle">Visual utility (percentage points)</text>
+</svg>

@@ -1,0 +1,15 @@
+{
+  "medgemma": {
+    "stored_elements": 2490222960,
+    "nominal_parameters": 4300079472,
+    "quantized_stored_elements": 1809856512,
+    "quantized_nominal_parameters": 3619713024,
+    "stored_elements_by_dtype": {
+      "torch.float32": 680366448,
+      "torch.uint8": 1809856512
+    },
+    "explanation": "numel() counts stored elements; 4-bit NF4 layers store 2 weights per uint8 element, so the raw sum (e.g. ~2.49e9) underestimates the nominal parameter count.",
+    "model_id": "google/medgemma-4b-it",
+    "revision": "290cda5eeccbee130f987c4ad74a59ae6f196408"
+  }
+}

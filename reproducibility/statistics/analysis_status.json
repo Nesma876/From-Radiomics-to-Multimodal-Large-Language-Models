@@ -1,0 +1,19 @@
+{
+  "complete": {
+    "slake/coattention": true,
+    "slake/early": true,
+    "slake/medgemma": true,
+    "slake/q_only": true,
+    "vqarad/coattention": true,
+    "vqarad/early": true,
+    "vqarad/medgemma": true,
+    "vqarad/q_only": true
+  },
+  "holm_family": "visual utility (correct vs no_visual) for every multimodal model x dataset (6 tests)",
+  "holm_family_size_observed": 6,
+  "notes": [
+    "classical CIs are conditional on the 5 observed training runs (per-question seed means, image bootstrap)",
+    "permutation assumption: condition labels exchangeable within each image under H0",
+    "neutralization differs between model families; utilities are compared within model only"
+  ]
+}

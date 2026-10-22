@@ -1,0 +1,60 @@
+{
+  "runs": {
+    "/kaggle/input/datasets/zineb1993/ibmed-v3-results": {
+      "vqarad_split_heuristic": "image-disjoint (candidate)"
+    }
+  },
+  "decisions": {
+    "vqarad_classical": {
+      "decision": "RETRAIN",
+      "runs": "q_only, early, coattention x 5 seeds",
+      "reason": "mandatory: legacy heads trained on the original (contaminated) split"
+    },
+    "slake_classical": {
+      "decision": "RETRAIN (case B)",
+      "reason": "legacy SLAKE predictions cannot be verified (no checkpoints, configs or feature hashes); a clean homogeneous package is produced"
+    },
+    "medgemma": {
+      "slake": {
+        "decision": "REUSE_AFTER_PHASE5_CHECKS",
+        "candidates": [
+          {
+            "run": "/kaggle/input/datasets/zineb1993/ibmed-v3-results",
+            "file": "/kaggle/input/datasets/zineb1993/ibmed-v3-results/predictions/mllm_medgemma.csv",
+            "dataset": "slake",
+            "conditions": [
+              "correct",
+              "gray",
+              "no_visual",
+              "swapped"
+            ]
+          }
+        ]
+      },
+      "vqarad": {
+        "decision": "REUSE_AFTER_PHASE5_CHECKS",
+        "candidates": [
+          {
+            "run": "/kaggle/input/datasets/zineb1993/ibmed-v3-results",
+            "file": "/kaggle/input/datasets/zineb1993/ibmed-v3-results/predictions/mllm_medgemma.csv",
+            "dataset": "vqarad",
+            "conditions": [
+              "correct",
+              "gray",
+              "no_visual",
+              "swapped"
+            ]
+          }
+        ]
+      }
+    },
+    "gpu_benchmarks": {
+      "decision": "RE-PROFILE ALL (q_only, early, coattention, medgemma)",
+      "reason": "no legacy measurement follows the 5 warm-up + 3 x 50 = 150 protocol"
+    },
+    "medgemma_missing_conditions": {
+      "slake": [],
+      "vqarad": []
+    }
+  }
+}

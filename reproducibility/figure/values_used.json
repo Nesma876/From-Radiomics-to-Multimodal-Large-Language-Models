@@ -1,0 +1,58 @@
+[
+  {
+    "dataset": "slake",
+    "model": "q_only",
+    "accuracy": 59.2,
+    "change_rate": "n/a",
+    "utility": null
+  },
+  {
+    "dataset": "slake",
+    "model": "early",
+    "accuracy": 57.0,
+    "change_rate": "21.6",
+    "utility": -2.0
+  },
+  {
+    "dataset": "slake",
+    "model": "coattention",
+    "accuracy": 87.8,
+    "change_rate": "31.8",
+    "utility": 23.5
+  },
+  {
+    "dataset": "slake",
+    "model": "medgemma",
+    "accuracy": 86.2,
+    "change_rate": "59.2",
+    "utility": 44.5
+  },
+  {
+    "dataset": "vqarad",
+    "model": "q_only",
+    "accuracy": 61.2,
+    "change_rate": "n/a",
+    "utility": null
+  },
+  {
+    "dataset": "vqarad",
+    "model": "early",
+    "accuracy": 59.0,
+    "change_rate": "31.3",
+    "utility": 3.2
+  },
+  {
+    "dataset": "vqarad",
+    "model": "coattention",
+    "accuracy": 57.8,
+    "change_rate": "37.4",
+    "utility": 2.9
+  },
+  {
+    "dataset": "vqarad",
+    "model": "medgemma",
+    "accuracy": 71.4,
+    "change_rate": "46.4",
+    "utility": 17.9
+  }
+]

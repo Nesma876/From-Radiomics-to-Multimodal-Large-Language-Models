@@ -1,0 +1,27 @@
+{
+  "dataset": "slake",
+  "architecture": "early",
+  "seed": 0,
+  "split_id": "8e57938223ba7afa",
+  "hyperparameters": {
+    "lr": 0.0001,
+    "weight_decay": 0.01,
+    "epochs": 40,
+    "batch_size": 32,
+    "hidden": 256,
+    "dropout": 0.2,
+    "patience": 8,
+    "attn_heads": 8,
+    "max_q_tokens": 64,
+    "selection": "best validation accuracy (early stopping); never the test set"
+  },
+  "encoder": "hf-hub:microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224",
+  "features_sha256": "955567534c1f8ece72e0f1ec9e01349729ac256ce532d52a4510f97fb4e66546",
+  "fake_encoder": false,
+  "n_train": 1681,
+  "n_val": 358,
+  "best_val_acc": 0.6005586592178771,
+  "best_epoch": 4,
+  "epochs_run": 12,
+  "train_seconds": 9.840403855999966
+}

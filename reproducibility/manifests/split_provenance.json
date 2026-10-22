@@ -1,0 +1,38 @@
+{
+  "vqarad": {
+    "dataset": "VQA-RAD",
+    "questions_and_images": "Official OSF release (Lau et al., 2018, Scientific Data 5:180251)",
+    "osf_json": "/kaggle/input/datasets/zineb1993/vqa-rad/VQA_RAD Dataset Public.json",
+    "osf_json_sha256": "948b7156059b864cf72344fb10669233526b175c243e5a046d20d4201d297a95",
+    "split": "image-disjoint train/validation/test",
+    "split_distributor": "https://github.com/lmb-freiburg/radgrounder/tree/main/data_splits/vqa_rad",
+    "split_files": {
+      "test_fixed_split.json": "8cf54ce2f0127ce518e74d083d59e81ef666e520dc71ce6834a7f5e6e2398ded",
+      "train_fixed_split.json": "5e36a49f12a270917bfc31a6dd115962b3d9f2dcf216a7b30ad13ab1a377e285",
+      "validation_fixed_split.json": "6c184c849058a170ff939226b315b9d6358ccec52c06a6e1a8a304a3449a6d4d"
+    },
+    "split_attributed_by_distributor_to": "Wu et al. (2025), Nature Communications 16:7866",
+    "split_attribution_status": "NOT VERIFIED. The manuscript reference [9] is RadFM (Wu C. et al., Nat Commun 2025, DOI 10.1038/s41467-025-62385-7). Same first author, journal and year, but it was not confirmed that article 16:7866 is RadFM nor that the split originates from it. Cite the distributor (RadGrounder) for the split until verified; do not treat RadGrounder and RadFM as interchangeable references.",
+    "matching": "split questions matched to OSF records by image name + normalised question text (answer used to break ties); each OSF record used at most once"
+  },
+  "slake": {
+    "dataset": "SLAKE 1.0 (Liu et al., 2021)",
+    "source": "/kaggle/working/outputs/raw/slake",
+    "files": {
+      "train": {
+        "path": "/kaggle/working/outputs/raw/slake/train.json",
+        "sha256": "7a9fb81f9d7bb145c3d7e9bc8d3b9016ba18b6539ea5031a53bae8fd3cd991c3"
+      },
+      "val": {
+        "path": "/kaggle/working/outputs/raw/slake/validation.json",
+        "sha256": "32b016440b0c3be11056a78a18eeab46333268407fbb6e6b32f9f4c2debc50f6"
+      },
+      "test": {
+        "path": "/kaggle/working/outputs/raw/slake/test.json",
+        "sha256": "6be8f7b4c5a46cdbc713a5210a25b6ed5aa1fd1574c83cefb4f998131f17c2c3"
+      }
+    },
+    "split": "official train/validation/test; English questions only",
+    "hf_snapshot": ""
+  }
+}

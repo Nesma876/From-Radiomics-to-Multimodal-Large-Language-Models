@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code or the released experimental artifacts, please cite the accompanying article."
+title: "Visual reliance in medical VQA: code and reproducibility artifacts"
+type: software
+authors:
+  - family-names: "SETTOUTI"
+    given-names: "Nesma"
+  - family-names: "HAMZA-CHERIF"
+    given-names: "Souaad"
+  - family-names: "BECHAR"
+    given-names: "Mohammed El Amine"
+year: 2026
+license: MIT
+repository-code: "https://github.com/Nesma876/From-Radiomics-to-Multimodal-Large-Language-Models"
+preferred-citation:
+  type: article
+  title: "From Radiomics to Multimodal Large Language Models: A Critical Review of Fusion, Grounding, Reasoning, and Clinical Evidence"
+  authors:
+    - family-names: "SETTOUTI"
+      given-names: "Nesma"
+    - family-names: "HAMZA-CHERIF"
+      given-names: "Souaad"
+    - family-names: "BECHAR"
+      given-names: "Mohammed El Amine"
+  journal: "Intelligence-Based Medicine"
+  year: 2026
+

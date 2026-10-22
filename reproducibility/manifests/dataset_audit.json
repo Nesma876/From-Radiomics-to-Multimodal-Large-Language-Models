@@ -1,0 +1,97 @@
+{
+  "vqarad": {
+    "splits": {
+      "test": {
+        "questions": 392,
+        "images_by_pixels": 99,
+        "images_by_name": 99,
+        "yes_rate": 0.4541
+      },
+      "train": {
+        "questions": 418,
+        "images_by_pixels": 103,
+        "images_by_name": 103,
+        "yes_rate": 0.5239
+      },
+      "val": {
+        "questions": 383,
+        "images_by_pixels": 92,
+        "images_by_name": 92,
+        "yes_rate": 0.4961
+      }
+    },
+    "test_train_overlap_by_pixels": 0,
+    "test_train_overlap_by_name": 0,
+    "same_pixels_under_different_names": 0,
+    "same_pixels_examples": {},
+    "exact_duplicates_test": 1,
+    "exact_duplicate_groups_test": [
+      "dup-vqarad-195"
+    ],
+    "presumed_image_dependence_test": {
+      "not annotated": 392
+    },
+    "expected_vs_observed": {
+      "test_questions": {
+        "expected": 392,
+        "observed": 392,
+        "match": true
+      },
+      "test_images": {
+        "expected": 99,
+        "observed": 99,
+        "match": true
+      },
+      "exact_duplicates_test": {
+        "expected": 1,
+        "observed": 1,
+        "match": true
+      }
+    },
+    "osf_unmatched_included": 0
+  },
+  "slake": {
+    "splits": {
+      "test": {
+        "questions": 355,
+        "images_by_pixels": 96,
+        "images_by_name": 96,
+        "yes_rate": 0.493
+      },
+      "train": {
+        "questions": 1681,
+        "images_by_pixels": 445,
+        "images_by_name": 445,
+        "yes_rate": 0.514
+      },
+      "val": {
+        "questions": 358,
+        "images_by_pixels": 96,
+        "images_by_name": 96,
+        "yes_rate": 0.5084
+      }
+    },
+    "test_train_overlap_by_pixels": 0,
+    "test_train_overlap_by_name": 0,
+    "same_pixels_under_different_names": 0,
+    "same_pixels_examples": {},
+    "exact_duplicates_test": 0,
+    "exact_duplicate_groups_test": [],
+    "presumed_image_dependence_test": {
+      "vision-based": 316,
+      "knowledge-based": 39
+    },
+    "expected_vs_observed": {
+      "test_questions": {
+        "expected": 355,
+        "observed": 355,
+        "match": true
+      },
+      "test_images": {
+        "expected": 96,
+        "observed": 96,
+        "match": true
+      }
+    }
+  }
+}

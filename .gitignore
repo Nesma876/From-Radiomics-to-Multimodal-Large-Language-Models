@@ -1,0 +1,27 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
+
+# Downloaded datasets, images and model weights must never be committed.
+datasets/
+images/
+checkpoints/
+models/
+work/
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+*.dcm
+
+# Local credentials and environment files.
+.env
+.env.*
+*token*
+

@@ -1,0 +1,14 @@
+{
+  "source": "reproducibility",
+  "bootstrap_seed": 2026,
+  "resamples": 10000,
+  "checks": {
+    "visual_utility_pp": true,
+    "ci_low_pp": true,
+    "ci_high_pp": true,
+    "prediction_change_pct": true,
+    "p_permutation": true
+  },
+  "all_checks_pass": true,
+  "interpretation": "Point estimates and change rates are required to match exactly. Confidence limits and permutation p-values are accepted only within explicit Monte-Carlo tolerances because the exact archived analysis source was not supplied."
+}

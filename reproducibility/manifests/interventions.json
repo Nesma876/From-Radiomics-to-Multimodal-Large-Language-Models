@@ -1,0 +1,49 @@
+{
+  "gray": {
+    "rgb": [
+      128,
+      128,
+      128
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "file": "/kaggle/working/outputs/images/gray.png",
+    "note": "generated once, then each model's own preprocessing is applied"
+  },
+  "no_visual": {
+    "medgemma": "text-only prompt, question unchanged",
+    "biomedclip_fusion": "visual-information ablation with the mean training-image embedding / patch tokens (train split only); an approximation, not image removal"
+  },
+  "swapped": {
+    "seed": 2026,
+    "terminology": "another image (patient identity unavailable)",
+    "constraints_satisfied": {
+      "slake": {
+        "same_modality": 0.9690140845070423,
+        "same_region": 0.971830985915493,
+        "stratified_draw": 0.9605633802816902
+      },
+      "vqarad": {
+        "same_modality": 1.0,
+        "same_region": 1.0,
+        "stratified_draw": 1.0
+      }
+    }
+  },
+  "legacy_swap_comparison": {
+    "/kaggle/input/datasets/zineb1993/ibmed-v3-results": {
+      "slake": {
+        "compared": 355,
+        "identical": 355,
+        "all_identical": true
+      },
+      "vqarad": {
+        "compared": 392,
+        "identical": 392,
+        "all_identical": true
+      }
+    }
+  }
+}

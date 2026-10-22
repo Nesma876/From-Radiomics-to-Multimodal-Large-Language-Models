@@ -1,0 +1,12 @@
+run,item,path,status,reason,dataset,conditions,n_rows
+/kaggle/input/datasets/zineb1993/ibmed-v3-results,legacy manifest (questions.csv),/kaggle/input/datasets/zineb1993/ibmed-v3-results/data/questions.csv,REUSABLE_WITH_CHECKS,VQA-RAD split heuristic: image-disjoint (candidate); content compared to the frozen manifest in phase 2,,,
+/kaggle/input/datasets/zineb1993/ibmed-v3-results,swap correspondences,/kaggle/input/datasets/zineb1993/ibmed-v3-results/data/questions.csv,REUSABLE_WITH_CHECKS,legacy swap pairs; reproduced and compared in phase 4,,,
+/kaggle/input/datasets/zineb1993/ibmed-v3-results,dataset file hashes,,MISSING,legacy packages did not record dataset file hashes,,,
+/kaggle/input/datasets/zineb1993/ibmed-v3-results,library versions,/kaggle/input/datasets/zineb1993/ibmed-v3-results/env.json,VALID,"torch=2.11.0+cu128, transformers=5.20.2, bitsandbytes=0.50.2, open_clip=3.3.0",,,
+/kaggle/input/datasets/zineb1993/ibmed-v3-results,exact model revisions,,MISSING,legacy packages did not record the MedGemma / BiomedCLIP revisions; recorded in phase 7,,,
+/kaggle/input/datasets/zineb1993/ibmed-v3-results,BiomedCLIP checkpoints / training configs,,MISSING,legacy packages kept neither head checkpoints nor per-run configs,,,
+/kaggle/input/datasets/zineb1993/ibmed-v3-results,training logs,/kaggle/input/datasets/zineb1993/ibmed-v3-results/results/train_log_classical.csv,MISSING,durations / epochs only; no loss curves,,,
+/kaggle/input/datasets/zineb1993/ibmed-v3-results,MedGemma predictions slake,/kaggle/input/datasets/zineb1993/ibmed-v3-results/predictions/mllm_medgemma.csv,REUSABLE_WITH_CHECKS,"raw outputs present; ids, labels, conditions and swap pairs verified in phase 5",slake,"['correct', 'gray', 'no_visual', 'swapped']",1420.0
+/kaggle/input/datasets/zineb1993/ibmed-v3-results,MedGemma predictions vqarad,/kaggle/input/datasets/zineb1993/ibmed-v3-results/predictions/mllm_medgemma.csv,REUSABLE_WITH_CHECKS,"raw outputs present; ids, labels, conditions and swap pairs verified in phase 5",vqarad,"['correct', 'gray', 'no_visual', 'swapped']",1568.0
+/kaggle/input/datasets/zineb1993/ibmed-v3-results,GPU measurements compute_mllm_medgemma,/kaggle/input/datasets/zineb1993/ibmed-v3-results/results/compute_mllm_medgemma.csv,INVALID,"legacy protocol (warm-up questions re-timed in repetitions 2-3; n_timed=[160] instead of exactly 150; no p95, no reserved memory, no revision): re-profile",,,
+/kaggle/input/datasets/zineb1993/ibmed-v3-results,BiomedCLIP feature caches / checkpoints (*.pt),,MISSING,0 file(s) found,,,
